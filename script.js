@@ -9,6 +9,10 @@ class Person {
 		return this._name;
 	}
 
+	get age(){
+		return this._age;
+	}
+
 	set age(age){
 		this._age = age;
 	}	
